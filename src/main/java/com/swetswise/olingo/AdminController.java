@@ -21,7 +21,7 @@ public class AdminController {
 	private static final Logger logger = LoggerFactory.getLogger(AdminController.class);
 	
 	/**
-	 * Simply selects the home view to render by returning its name.
+	 * Simply selects the home view to render by returning its.
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String admin(Locale locale, Model model) {
